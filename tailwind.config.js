@@ -7,12 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary : "#7C3FFF",
+        primarylight:"#F3EDFF",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        hero:"url('https://heroimages.com/static/media/PagesHomeGalleries8.ef7cc4c7.jpg')",
       },
     },
   },
   plugins: [],
-}
+} 
